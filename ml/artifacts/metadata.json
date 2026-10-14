@@ -1,0 +1,27 @@
+{
+    "model_name": "Random Forest",
+    "model_version": "1.0.0",
+    "decision_threshold": 0.4,
+    "target": "Machine failure",
+    "positive_class": 1,
+    "features": [
+        "Type",
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+    ],
+    "numeric_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+    ],
+    "categorical_features": [
+        "Type"
+    ],
+    "dataset": "AI4I 2020 Predictive Maintenance Dataset",
+    "threshold_status": "provisional"
+}
